@@ -9,7 +9,7 @@ import { FaQuoteLeft } from "react-icons/fa6";
 
 const Slider = () => {
   return (
-    <>
+    
     <div className='w-full h-[500px] mb-[30px] mt-[30px] text-[white] '>
     <>
       <Swiper
@@ -151,7 +151,7 @@ const Slider = () => {
 
 
         </div>
-        </>
+      
   )
 }
 
