@@ -5,8 +5,6 @@ import Services from "../QualityServices/Services";
 import OurInfo from "../Info/OurInfo";
 import CalltoHelp from "../CalltoHelp/CalltoHelp";
 import Slider from "../Testimonials/Slider";
-import Contact from "../Contact/Contact";
-
 
 const HomeScreen = () => {
   return (
@@ -17,7 +15,6 @@ const HomeScreen = () => {
       <OurInfo/>
       <OurServices/>
       <Slider/>
-      <Contact/>
     </div>
   );
 };

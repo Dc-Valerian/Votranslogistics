@@ -11,7 +11,8 @@ const Footer = () => {
  <div
  className=" flex w-[90%]  justify-between flex-wrap mobile:gap-[20px]"
  >
-<div className=" w-[300px] flex flex-col gap-[20px]">   <a className="block text-teal-600" href="/">
+<div className=" w-[300px] flex flex-col  items-center">  
+ <a className="block text-teal-600" href="/">
               <img
                 src="https://res.cloudinary.com/dbpcptmco/image/upload/v1712588364/Votrans-Logo-1_007c003b1_3304-removebg-preview_qefdob.png"
                 alt="Header_Image"
@@ -20,9 +21,24 @@ const Footer = () => {
               />
             </a>
         
+ <div
+ className="text-[13px] font-[400] text-[white]"
+ >© {currentDate}. Votrans Limited / All rights reserved</div>
             
             </div>
             
+<div className=" text-[white]  w-[200px] flex flex-col gap-[15px]  justify-start">
+  <text
+  className="text-[19px] leading-[18px] font-[700] hover:cursor-pointer hover:underline hover:underline-offset-2">
+    Quick Link
+  </text>
+  <nav  className="text-[16px] font-[400]  text-[white] leading-[16px] transition hover:text-[#ff5e14] hover:cursor-pointer">Home</nav>
+  <nav  className="text-[16px] font-[400] text-[white]  leading-[16px] transition hover:text-[#ff5e14] hover:cursor-pointer">About</nav>
+  <nav  className="text-[16px] font-[400] text-[white]  leading-[16px] transition hover:text-[#ff5e14] hover:cursor-pointer">Services</nav>
+  <nav  className="text-[16px] font-[400] text-[white]  leading-[16px] transition hover:text-[#ff5e14]  hover:cursor-pointer">Contact</nav>
+</div>
+
+
 <div className=" text-[white]  w-[200px] flex flex-col gap-[15px]  justify-start">
   <text
   className="text-[19px] leading-[18px] font-[700] hover:cursor-pointer hover:underline hover:underline-offset-2">
@@ -61,9 +77,6 @@ Apapa, Lagos, Nigeria.</nav>
 </div>
 
  </div>
- <div
- className="text-[13px] font-[400] text-[white]"
- >© {currentDate}. Votrans Limited / All rights reserved</div>
     </div>
   );
 };

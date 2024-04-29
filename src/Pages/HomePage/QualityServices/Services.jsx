@@ -5,7 +5,7 @@ import { GiWorld } from "react-icons/gi";
 
 const Services = () => {
   return (
-    <div className=" h-[500px] flex items-center justify-center xmd:h-fit xmd:py-[20px]">
+    <div className=" h-[700px] flex items-center justify-center xmd:h-fit xmd:py-[20px]">
      <div className="flex flex-col w-[90%] items-center gap-[40px] ">
 
      <div className="flex flex-col items-center justify-center gap-[10px] w-[55%]  xmd:w-[95%]">
@@ -37,6 +37,18 @@ const Services = () => {
             <div className="flex items-center justify-center flex-col">
                 <h2 className="text-[#111] text-[24px] font-[700] hover:text-[#ff5e14]">
                 Air Freight
+                </h2>
+                <p className="text-[18px] text-[#777] font-[400] text-center">For quick movement of goods internationally.</p>
+            </div>
+          </div>
+
+          <div className=" w-[30%] flex items-center justify-center flex-col gap-[10px] xmd:w-[90%] shadow-md  hover:shadow-2xl py-[20px] px-[10px] rounded-[20px] cursor-pointer">
+          <div className="bg-[white] h-[80px] w-[80px] rounded-[50%] flex items-center justify-center text-[40px] text-[#ff5e14]">
+            <GiWorld />
+            </div>
+            <div className="flex items-center justify-center flex-col">
+                <h2 className="text-[#111] text-[24px] font-[700] hover:text-[#ff5e14]">
+                Countries Covered
                 </h2>
                 <p className="text-[18px] text-[#777] font-[400] text-center">For quick movement of goods internationally.</p>
             </div>

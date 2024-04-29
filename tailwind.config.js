@@ -7,11 +7,14 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('https://p.w3layouts.com/demos_new/template_demo/08-09-2021/shipper-liberty-demo_Free/1111825838/web/assets/images/banner11.jpg')",
-        'righthero': "url('https://votranslogistics.com/wp-content/uploads/2021/09/Home-page.jpg')",
-        'lefthero': "url('https://votranslogistics.com/wp-content/uploads/2021/09/Home-page-1.jpg')",
-        'mapimage': "url('https://votranslogistics.com/wp-content/uploads/2019/01/bg_5-1.jpg?id=2003')"
+        // 'hero': "url('https://p.w3layouts.com/demos_new/template_demo/08-09-2021/shipper-liberty-demo_Free/1111825838/web/assets/images/banner11.jpg')",
+        // 'righthero': "url('https://votranslogistics.com/wp-content/uploads/2021/09/Home-page.jpg')",
+        // 'lefthero': "url('https://votranslogistics.com/wp-content/uploads/2021/09/Home-page-1.jpg')",
+        'mapimage': "url('https://votranslogistics.com/wp-content/uploads/2019/01/bg_5-1.jpg?id=2003')",
+        'aboutImage':"url('https://p.w3layouts.com/demos_new/template_demo/08-09-2021/shipper-liberty-demo_Free/1111825838/web/assets/images/banner2.jpg')"
+
       },
+      
       colors: {
         transparent: 'transparent',
         'white': '#ffffff',
